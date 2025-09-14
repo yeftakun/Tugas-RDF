@@ -1,0 +1,65 @@
+@prefix tm1: <http://tugasmodel1.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# Pemain Esport 
+tm1:player1 a tm1:PemainEsport ;
+    tm1:nama "Rizky" ;
+    tm1:bermainGame tm1:FreeFire ;
+    tm1:ikutTurnamen tm1:FFWS2025 .
+
+tm1:player2 a tm1:PemainEsport ;
+    tm1:nama "Andi" ;
+    tm1:bermainGame tm1:AssettoCorsaCompetizione ;
+    tm1:ikutTurnamen tm1:SROEsport2025 .
+
+tm1:player3 a tm1:PemainEsport ;
+    tm1:nama "Dewi" ;
+    tm1:bermainGame tm1:ArenaBreakout ;
+    tm1:ikutTurnamen tm1:ABChampionship2025 .
+
+tm1:player4 a tm1:PemainEsport ;
+    tm1:nama "Budi" ;
+    tm1:bermainGame tm1:OSU ;
+    tm1:ikutTurnamen tm1:OSUWorldCup2025 .
+
+tm1:player5 a tm1:PemainEsport ;
+    tm1:nama "Kevin" ;
+    tm1:bermainGame tm1:F1_2025 ;
+    tm1:ikutTurnamen tm1:VirtualGP2025 .
+
+######## Game ########
+tm1:FreeFire a tm1:Game ;
+    tm1:genre "Battle Royale" .
+
+tm1:AssettoCorsaCompetizione a tm1:Game ;
+    tm1:genre "Racing Simulator" .
+
+tm1:ArenaBreakout a tm1:Game ;
+    tm1:genre "Extraction Shooter" .
+
+tm1:OSU a tm1:Game ;
+    tm1:genre "Rhythm Game" .
+
+tm1:F1_2025 a tm1:Game ;
+    tm1:genre "Racing" .
+
+######## Turnamen ########
+tm1:FFWS2025 a tm1:Turnamen ;
+    tm1:lokasi "Bangkok" ;
+    tm1:memilikiJuara tm1:player1 .
+
+tm1:SROEsport2025 a tm1:Turnamen ;
+    tm1:lokasi "Monza" ;
+    tm1:memilikiJuara tm1:player2 .
+
+tm1:ABChampionship2025 a tm1:Turnamen ;
+    tm1:lokasi "Shanghai" ;
+    tm1:memilikiJuara tm1:player3 .
+
+tm1:OSUWorldCup2025 a tm1:Turnamen ;
+    tm1:lokasi "Tokyo" ;
+    tm1:memilikiJuara tm1:player4 .
+
+tm1:VirtualGP2025 a tm1:Turnamen ;
+    tm1:lokasi "Silverstone" ;
+    tm1:memilikiJuara tm1:player5 .
