@@ -27,7 +27,7 @@ tm1:player5 a tm1:PemainEsport ;
     tm1:bermainGame tm1:F1_2025 ;
     tm1:ikutTurnamen tm1:VirtualGP2025 .
 
-######## Game ########
+# Game
 tm1:FreeFire a tm1:Game ;
     tm1:genre "Battle Royale" .
 
@@ -43,7 +43,7 @@ tm1:OSU a tm1:Game ;
 tm1:F1_2025 a tm1:Game ;
     tm1:genre "Racing" .
 
-######## Turnamen ########
+# Turnamen
 tm1:FFWS2025 a tm1:Turnamen ;
     tm1:lokasi "Bangkok" ;
     tm1:memilikiJuara tm1:player1 .

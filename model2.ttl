@@ -1,7 +1,7 @@
 @prefix tm2: <http://tugasmodel2.org/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-######## Mahasiswa ########
+# Mahasiswa
 tm2:mahasiswa1 a tm2:Mahasiswa ;
     tm2:nama "Yefta" ;
     tm2:sukaMinum tm2:Americano ;
@@ -17,7 +17,7 @@ tm2:mahasiswa3 a tm2:Mahasiswa ;
     tm2:sukaMinum tm2:KopiTubruk ;
     tm2:seringBeliDi tm2:WarungKopi .
 
-######## Jenis Kopi ########
+# Jenis Kopi
 tm2:Americano a tm2:Kopi ;
     tm2:jenis "Hitam" .
 
@@ -27,7 +27,7 @@ tm2:Latte a tm2:Kopi ;
 tm2:KopiTubruk a tm2:Kopi ;
     tm2:jenis "Tradisional" .
 
-######## Kedai Kopi ########
+# Kedai Kopi
 tm2:JanjiJiwa a tm2:KedaiKopi ;
     tm2:lokasi "Kampus A" .
 
